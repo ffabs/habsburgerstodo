@@ -1,0 +1,55 @@
+body {
+  text-align: center;
+  background-color: #282c34;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  font-size: 4em;
+}
+
+.item {
+  background-color: yellow;
+  padding: 1em;
+  margin-bottom: 2em;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 33em 1em 33em;
+}
+
+.green {
+  background-color: rgb(2, 182, 2);
+}
+
+.red {
+  background-color: red;
+}
+
+button {
+  color: white;
+  background-color: hsl(219, 13%, 49%);
+  font-size: 0.6em;
+  flex: 1 1 0px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hide {
+  display: none;
+}
+
+input, select {
+  font-size: 1.25em;
+}
+
+#create{
+  margin-bottom: 4em;
+}
